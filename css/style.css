@@ -1,0 +1,116 @@
+/* ------------------------------------ COMMON CSS STARTS --------------------------------*/
+.br5{-webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}
+.tr5{-webkit-border-radius:5px 5px 0 0; -moz-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0;}
+.rb5{-webkit-border-radius:0 5px 5px 0; -moz-border-radius:0 5px 5px 0; border-radius:0 5px 5px 0;}
+.bl5{-webkit-border-radius:0 0 5px 5px; -moz-border-radius:0 0 5px 5px; border-radius:0 0 5px 5px;}
+.tl5{-webkit-border-radius:5px 0 0 5px; -moz-border-radius:5px 0 0 5px; border-radius:5px 0 0 5px;}
+
+*{margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#333; white-space:normal;}
+
+.linear-chart,.tracking-details{position:relative;}
+.linear-value,.status-animation,.tracking-details:before{position:absolute;}
+
+.tracking-details:before{content:'';}
+
+.linear-value{right:3px;}
+
+.linear-value{top:3px;}
+.tracking-details:before{top:-15px;}
+
+.linear-value{bottom:3px;}
+
+.linear-value{left:3px;}
+
+.modal-content{background-color:#333;}
+.linear-chart,.order-status-icon{background-color:#eee;}
+.search-container .btn.btn-default{background-color:#ee6000;}
+.search-container .btn.btn-default:hover{background-color:#000;}
+
+.search-container .btn.btn-default,.search-container .btn.btn-default *,.tracking-container *{color:#fff;}
+::placeholder,:-ms-input-placeholder{color:#ddd;}
+.search-container input[type="text"]{color:#333;}
+.green{background-color:#55ce63;}
+
+.search-container .btn.btn-default,.search-container input[type="text"]{font-size:20px;}
+.tracking-details *{font-size:11px;}
+
+.modal-header *,h5{font-weight:bold;}
+
+.order-status-icon{width:72px;}
+.search-container input[type="text"]{width:70%;}
+
+.order-status-icon{height:72px;}
+
+.tracking-details:before{border:7px solid transparent;}
+.tracking-details:before{border-bottom:7px solid #fff;}
+.search-container input[type="text"]{border:2px solid #ee6000;}
+.tracking-details{border:1px solid #fff;}
+.modal-header{border:1px solid #000;}
+
+.order-status-icon{border-radius:100%;}
+
+.fa,input[type="radio"]{margin-right:5px;}
+.search-container{margin-bottom:30px;}
+.order-status-icon{margin-bottom:15px;}
+.modal-body p{margin-bottom:0;}
+.map-container{margin-top:25px;}
+.search-container input[type="text"]{padding:10px 15px;}
+.order-status-icon{padding:12px;}
+.tracking-details{padding:5px;}
+
+input[type="text"]{vertical-align:middle;}
+
+/* ------------------------------------ COMMON CSS STARTS --------------------------------*/
+
+@media screen and (min-width:1280px)
+{
+	.booking-status{position:relative;width:100%;}
+	.search-container input[type="text"]{margin-right:5px;}
+	.status-animation{left:5px;right:5px;top:26px;}
+	.linear-chart,.status-animation{height:20px;}
+	.linear-value{height:14px;}
+	.order-status-icon{display:inline-block;}
+	.text-center .tracking-details:before{left:45%;}
+	.text-left .tracking-details:before{left:5%;}
+	.text-right .tracking-details:before{right:5%;}
+}
+@media screen and (min-width:1360px) and (max-width:1599px)
+{
+}
+@media screen and (min-width:1280px) and (max-width:1359px)
+{
+}
+@media screen and (max-width:1279px)
+{
+	.search-container input[type="text"]{width:100%; margin-bottom:10px;}
+	.linear-chart{width:30px;}
+}
+@media screen and (max-width:1023px)
+{
+
+}
+@media screen and (min-width:736px) and (max-width:1024px)
+{
+}
+@media screen and (min-width:736px) and (max-width:980px)
+{
+}
+@media screen and (min-width:960px) and (max-width:980px)
+{
+}
+@media screen and (min-width:768px) and (max-width:800px)
+{
+}
+@media screen and (width:736px)
+{
+}
+@media screen and (min-width:481px) and (max-width:800px)
+{
+}
+@media screen and (min-width:320px) and (max-width:800px)
+{
+}
+@media screen and (max-width:375px)
+{
+	
+}
